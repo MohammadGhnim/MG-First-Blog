@@ -32,3 +32,70 @@
     color: #0F110C;
     transition: 0.4s ease;
 }
+.modal-body .blog-details .title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color:  #fdecef;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman';
+}
+.bg {
+    background-color: #612940;
+}
+
+.modal-body .blog-details .date {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color:  #fdecef;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+.modal-body .blog-details p {
+    font-size: 16px;
+    line-height: 28px;
+    color:  #fdecef;
+    font-weight: 400;
+    font-family: 'Times New Roman';
+    letter-spacing: 1.2px;
+    margin: 0 0 40px;
+}
+.modal-body .blog-details h4 {
+    font-size: 30px;
+    color: #fdecef;
+    font-family: 'Times New Roman';
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+.modal-body .img-fluid {
+    width: 100%;
+    height: auto;
+}
+.modal-body .modal-feat-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.8rem;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem !important;
+}
+.modal1 .modal-dialog .modal-content {
+    padding: 45px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    background:  #612940;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+.modal1 .modal-news {
+    max-width: 1000px !important;
+    padding: 60px 15px !important;
+}
